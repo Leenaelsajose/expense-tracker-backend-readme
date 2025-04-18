@@ -33,7 +33,7 @@
    - Authenticate with Google Cloud `gcloud auth login`
    - Set Google Cloud project: leena-final-project `gcloud config set project leena-final-project`
    - Clone the project and set the directory to the expensetracker folder and build the code `dotnet build`
-   - The code have 4 GCP Cloud Run functions,
+   - The code has 4 GCP Cloud Run functions,
      - expensetrackerbackend which adds the expenses to Firestore database
      - expensetrackertobigquery which gets triggered every time a document is added in the Firestore Expenses collection and adds it to the BigQuery table 
        expenses_analyzed in the dataset expense_tracker_data
