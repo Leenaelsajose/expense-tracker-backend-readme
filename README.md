@@ -32,7 +32,7 @@
    - Visit the [Google Cloud SDK download page](https://cloud.google.com/sdk/docs/install) and download the Windows installer and install it.
    - Authenticate with Google Cloud `gcloud auth login`
    - Set Google Cloud project: leena-final-project `gcloud config set project leena-final-project`
-   - Clone the project and set the directory the expensetracker folder and build the code `dotnet build`
+   - Clone the project and set the directory to the expensetracker folder and build the code `dotnet build`
    - The code have 4 GCP Cloud Run functions,
      - expensetrackerbackend which adds the expenses to Firestore database
      - expensetrackertobigquery which gets triggered every time a document is added in the Firestore Expenses collection and adds it to the BigQuery table 
