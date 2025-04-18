@@ -1,7 +1,6 @@
 # Expense Tracker Backend
 
 - I don't have a pipeline created for this project so the code would need to be deployed using the below gloud scripts to GCP.
-  - Enable Necessary APIs
   - Go to "APIs & Services" > "Library" in the Cloud Console.
   - Search for and enable the following APIs:
   - Cloud Functions API
